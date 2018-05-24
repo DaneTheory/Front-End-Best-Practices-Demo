@@ -1,0 +1,15 @@
+{
+  "name": "front-end-best-practices",
+  "version": "1.0.0",
+  "description": "A challenge which demonstrates various front-end solutions tackling an all too common problem. Includes notes comparing each solution.",
+  "main": "index.html",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "prod": "pm2 start ./server/server.js --name front-end-best-practices"
+  },
+  "author": "Branden Dane",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
