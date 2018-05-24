@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "node ./server/server.js",
-    "prod": "pm2 start ./server/server.js --name front-end-best-practices"
+    "prod": "pm2 start ./server/server.js --name front-end-best-practices-demo"
   },
   "author": "Branden Dane",
   "license": "ISC",
